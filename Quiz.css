@@ -13,7 +13,6 @@ ul{
 
 ul li {
     list-style: none;
-    display: inline-block;
     float: left;
     line-height: 50px
 }
