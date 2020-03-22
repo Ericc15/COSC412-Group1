@@ -1,0 +1,18 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "main": "index.js",
+  "author": "David L",
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "engine.io": "^3.4.0",
+    "express": "^4.17.1",
+    "has-binary": "^0.1.7",
+    "socket.io": "^2.3.0",
+    "socket.io-adapter": "^1.1.2",
+    "socket.io-client": "^2.3.0",
+    "socket.io-parser": "^3.4.0"
+  }
+}
