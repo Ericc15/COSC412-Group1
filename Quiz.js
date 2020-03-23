@@ -36,6 +36,9 @@
 
     // finally combine our output list into one string of HTML and put it on the page
     quizContainer.innerHTML = output.join('');
+   
+    // Testing for builQuiz function
+    console.log(output.join(''));
   }
 
   function showResults(){
@@ -71,6 +74,9 @@
 
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+
+    // Testing for showResult function
+    console.log(`${numCorrect} out of ${myQuestions.length}`);
   }
 
   // Variables
@@ -114,4 +120,7 @@
 
   // Event listeners
   submitButton.addEventListener('click', showResults);
+
 })();
+
+
