@@ -35,6 +35,9 @@ function buildQuiz(){
 
     // finally combine our output list into one string of HTML and put it on the page
     quizContainer.innerHTML = output.join('');
+   
+    // Testing for builQuiz function
+    console.log(output.join(''));
   }
 
   function showResults(){
@@ -70,6 +73,9 @@ function buildQuiz(){
 
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+
+    // Testing for showResult function
+    console.log(`${numCorrect} out of ${myQuestions.length}`);
   }
 
   function showSlide(n) {
@@ -90,14 +96,6 @@ function buildQuiz(){
       nextButton.style.display = 'inline-block';
       submitButton.style.display = 'none';
     }
-  }
-
-  function showNextSlide() {
-    showSlide(currentSlide + 1);
-  }
-
-  function showPreviousSlide() {
-    showSlide(currentSlide - 1);
   }
 
   // Variables
@@ -149,6 +147,7 @@ function buildQuiz(){
 
   // Event listeners
   submitButton.addEventListener('click', showResults);
-  previousButton.addEventListener("click", showPreviousSlide);
-  nextButton.addEventListener("click", showNextSlide);
+
 })();
+
+
