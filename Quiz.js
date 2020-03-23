@@ -63,7 +63,7 @@
         numCorrect++;
 
         // color the answers green
-        answerContainers[questionNumber].style.color = 'green';
+        answerContainers[questionNumber].style.color = 'lightgreen';
       }
       // if answer is wrong or blank
       else{
