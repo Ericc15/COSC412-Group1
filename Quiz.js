@@ -108,30 +108,30 @@ function buildQuiz(){
     {
       question: "How many days a week should you exercise?",
       answers: {
-        a: "1 day",
+        a: "1-2 days",
         b: "7 days",
         c: "3-4 days"
       },
       correctAnswer: "c"
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question: "What is a healthy BMI(Body Mass Index)?",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "1-10",
+        b: "26-35",
+        c: "18-25"
       },
       correctAnswer: "c"
     },
     {
-      question: "Which tool can you use to ensure code quality?",
+      question: "What is the number one cause of death worldwide?",
       answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
+        a: "Stroke",
+        b: "Heart disease",
+        c: "Cancer",
+        d: "Car accidents"
       },
-      correctAnswer: "d"
+      correctAnswer: "b"
     }
   ];
 
